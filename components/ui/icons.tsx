@@ -89,7 +89,7 @@ function IconNextChat({
   )
 }
 
-function IconKompanion({ className, ...props }: React.ComponentProps<'svg'>) {
+function IconNurtelecom({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
     <Image
       src="/o-logo.svg"
@@ -476,7 +476,7 @@ function IconChevronUpDown({
 export {
   IconEdit,
   IconNextChat,
-  IconKompanion,
+  IconNurtelecom,
   IconVercel,
   IconGitHub,
   IconSeparator,
